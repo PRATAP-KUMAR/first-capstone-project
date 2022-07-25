@@ -1,0 +1,12 @@
+.icon-bar {
+  width: 100%;
+  color: #272a31;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #04AA6D;
+}

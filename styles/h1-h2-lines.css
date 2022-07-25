@@ -1,0 +1,32 @@
+@media only screen and (max-width: 768px) {
+
+    * {
+        margin-left: 12px;
+    }
+
+    .hellow-world {
+        font-size: 24px;
+        color: #ec5242;
+    }
+
+    .h1-line {
+        font-size: 48px;
+        color: #ec5242;
+    }
+
+    .box {
+        border: 8px solid white;
+        background-color: lightgray;
+    }
+
+    #about .p,
+    #about .a {
+    color: #d3d3d3;
+}
+
+.date {
+    font-size: 32px;
+    color: #272a31;
+}
+
+}
