@@ -38,9 +38,11 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+PRATAP
+
+- GitHub: [@PRATAP-KUMAR](https://github.com/PRATAP-KUMAR)
+- Twitter: [@PRATAP_TWT](https://twitter.com/PRATAP_TWT)
+- Linkedin: [@LinkedIn](https://www.linkedin.com/in/pratap-kumar-panabaka-755489236/)
 
 ## 🤝 Contributing
 
