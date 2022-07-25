@@ -1,15 +1,14 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# First Capstone Project
 
-> Description the project.
+> In this capstone project is to build a website based on an online website for a conference.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- html, css , javascript
+- bootstrap
 
 ## Live Demo (if available)
 
@@ -18,8 +17,7 @@
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+**This is the first Capstone Project.**
 
 
 To get a local copy up and running follow these simple example steps.
@@ -40,14 +38,6 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
 - GitHub: [@githubhandle](https://github.com/githubhandle)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
@@ -61,6 +51,10 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
+
+## Credits
+
+- [Creative Commons license of the design](https://creativecommons.org/licenses/by-nc/4.0/)
 
 ## Acknowledgments
 
