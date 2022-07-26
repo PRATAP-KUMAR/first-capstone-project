@@ -1,0 +1,41 @@
+@media only screen and (max-width: 768px) {
+  .dark-bg {
+    background-color: blue;
+    padding-bottom: 80px;
+  }
+
+  .main-program {
+    display: flex;
+    color: white;
+    justify-content: center;
+    padding-top: 24px;
+  }
+
+  .program-box {
+    display: flex;
+    background-color: orange;
+    margin: 20px;
+  }
+
+  .programe-title {
+    color: #ec5242;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .description {
+    color: blue;
+  }
+
+  .button {
+    height: 80px;
+    background-color: #ec5242;
+    height: 80px;
+    margin-top: 80px;
+    margin-right: 80px;
+    margin-left: 80px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+}

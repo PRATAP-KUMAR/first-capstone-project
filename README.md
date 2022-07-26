@@ -12,6 +12,10 @@
 
 ## Live Demo (if available)
 
+![main page](project-images-preview/home-page.png)
+
+![about page](project-images-preview/about-page.png)
+
 [Live Demo Link](https://livedemo.com)
 
 

@@ -1,6 +1,7 @@
 .icon-bar {
   width: 100%;
   color: #272a31;
+  scale: 5;
 }
 
 .icon-bar a:hover {
@@ -8,5 +9,5 @@
 }
 
 .active {
-  background-color: #04AA6D;
+  background-color: #04aa6d;
 }
