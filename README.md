@@ -8,15 +8,18 @@
 ## Built With
 
 - html, css , javascript
-- bootstrap
 
 ## Live Demo (if available)
 
+[Live Demo Link](https://livedemo.com)
+
+main page preview  
 ![main page](project-images-preview/home-page.png)
 
+about page preview  
 ![about page](project-images-preview/about-page.png)
 
-[Live Demo Link](https://livedemo.com)
+
 
 
 ## Getting Started
