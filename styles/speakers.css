@@ -1,0 +1,43 @@
+.featured-speaker {
+  display: flex;
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+
+.speaker-details {
+  margin-top: 10px;
+}
+
+.speaker-avatar {
+  margin-right: 15px;
+}
+
+.speaker-block-line {
+  border-bottom: 3px solid #ddd;
+  width: 50px;
+  margin-bottom: 20px;
+}
+
+.speaker-name {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.speaker-role {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.speaker-column {
+  margin-top: 50px;
+  display: grid;
+  grid-gap: 50px 50px;
+  grid-template-columns: 50% 50%;
+}
+
+/* Mobile css - 768px and below */
+@media only screen and (max-width: 768px) {
+  .speaker-column {
+    grid-template-columns: 100%;
+  }
+}

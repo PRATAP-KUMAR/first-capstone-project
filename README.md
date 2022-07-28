@@ -20,8 +20,6 @@ about page preview
 ![about page](project-images-preview/about-page.png)
 
 
-
-
 ## Getting Started
 
 **This is the first Capstone Project.**

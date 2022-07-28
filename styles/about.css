@@ -8,8 +8,7 @@
 .main-program {
   color: white;
   text-align: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 30px;
   position: relative;
 }
 
@@ -19,8 +18,8 @@
 }
 
 .title-border {
-  height: 5px;
-  width: 100px;
+  height: 2px;
+  width: 60px;
   display: block;
   background-color: red;
   margin: 0 auto;
@@ -36,13 +35,13 @@
 .program-box {
   display: flex;
   background-color: #393c43;
-  padding: 20px 0;
+  padding: 20px;
+  align-items: center;
 }
 
 .program-icon {
   display: flex;
   margin-bottom: 10px;
-  flex: 0 0 100px;
   justify-content: center;
   align-items: center;
 }
@@ -51,6 +50,8 @@
   font-size: 30px;
   color: #fff;
   margin: auto;
+  width: 64px;
+  height: 64px;
 }
 
 .program-name {
@@ -58,16 +59,15 @@
   font-size: 14px;
   font-weight: bold;
   flex: 0.5;
-  margin: auto;
+  height: 50px;
+  margin-bottom: 20px;
 }
 
 .program-description {
   font-size: 13px;
-  flex: 1;
-  flex-wrap: wrap;
-  color: white;
-  margin: auto;
   text-align: left;
+  color: #fff;
+  flex: 1;
 }
 
 .button {
@@ -78,4 +78,59 @@
   padding: 40px;
   align-items: center;
   margin: 0 40px;
+}
+
+.whole-program {
+  display: none;
+}
+
+.whole-program a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 768px) {
+  .section-wrapper {
+    width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .program-box-wrapper {
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .program-box {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: #393c43;
+    padding: 20px;
+    width: 18%;
+    word-break: break-word;
+  }
+
+  .program-name {
+    color: #ec5242;
+    font-size: 14px;
+  }
+
+  .program-description {
+    font-size: 13px;
+    color: white;
+    text-align: center;
+  }
+
+  .button {
+    display: none;
+  }
+
+  .whole-program {
+    display: block;
+    text-align: center;
+  }
 }

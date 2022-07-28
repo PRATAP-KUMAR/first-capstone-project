@@ -1,17 +1,108 @@
-#footer {
-  background-color: #999;
-  padding: 50px;
+.dr-bg {
+  background-color: #272a31;
+}
+
+.partner {
+  color: white;
   text-align: center;
-  color: #fff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  position: relative;
 }
 
-.section-wrapper {
+.partner > span {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.partner-border {
+  height: 2px;
+  width: 60px;
+  display: block;
+  background-color: red;
   margin: 0 auto;
-  padding: 0 20px;
 }
 
-.dr-bg > i {
-  font-size: 48px;
-  color: #272a31;
-  margin-left: 0;
+.companies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  color: #d3d3d3;
+  justify-content: center;
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+
+.companies > a > img {
+  vertical-align: middle;
+  filter: grayscale(100%);
+}
+
+.lt-bg {
+  display: flex;
+  background-color: #d3d3d3;
+}
+
+.lt-bg > i {
+  flex: 1;
+  font-size: 100px;
+  text-align: center;
+  padding: 24px 0;
+}
+
+.last-text {
+  flex: 1;
+  display: flex;
+}
+
+.last-text > p {
+  color: black;
+  font-size: 24px;
+  text-align: center;
+}
+
+#partners {
+  background-color: #333;
+}
+
+#cc-license {
+  background-color: #ddd;
+  padding: 40px 20px;
+}
+
+.cc-logo-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.cc-logo-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+}
+
+.cc-icon {
+  font-size: 36px;
+}
+
+.cc-logo-text {
+  display: flex;
+  min-width: 200px;
+  flex-direction: column;
+}
+
+.cc-logo-text span {
+  display: block;
+}
+
+.cc-text-right {
+  font-size: 13px;
+}
+
+.cc-text-right-summary {
+  font-size: 12px;
+  color: #777;
 }

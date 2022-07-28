@@ -1,3 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'COCOGOOSE', sans-serif;
+}
+
 #home-page {
   background-color: #f4f4f4;
   padding-bottom: 100px;
@@ -36,4 +46,38 @@
 
 .venue {
   font-family: 'Lato', sans-serif;
+}
+
+
+/* Mobile css - 768px and below */
+@media only screen and (max-width: 768px) {
+  .fixed-header {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+
+  .section-wrapper {
+    width: 100%;
+  }
+
+  .program-box-wrapper {
+    flex-direction: column;
+  }
+
+  .program-box {
+    text-align: left;
+    display: flex;
+    gap: 20px;
+  }
+
+  .speaker-column {
+    display: inline-grid;
+  }
+
+  .page-wrapper {
+    height: 100% !important;
+  }
 }

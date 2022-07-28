@@ -1,0 +1,176 @@
+a {
+  text-decoration: none;
+}
+
+.pj-logo {
+  border: 1px solid red;
+}
+
+/* Social Navigation */
+.social-nav {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: end;
+}
+
+.social-nav a {
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px;
+  display: inline-block;
+  font-size: 13px;
+}
+
+.social-nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav-wrap {
+  width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: end;
+  padding: 0 20px;
+}
+
+/* Main Navigation */
+.main-nav {
+  display: flex;
+  padding: 20px 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.main-nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin-right: 60px;
+}
+
+.main-nav ul a {
+  padding: 20px;
+  color: #999;
+}
+
+.main-nav ul a.selected {
+  color: red;
+}
+
+.main-nav ul a:hover {
+  color: red;
+}
+
+.main-nav-inner {
+  display: flex;
+  width: 900px;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.right-side-menus {
+  display: flex;
+}
+
+.nav-button {
+  padding: 10px;
+  background-color: transparent;
+  border: 3px solid red;
+  color: red;
+}
+
+@media only screen and (max-width: 768px) {
+  .social-nav,
+  .main-nav {
+    display: none;
+  }
+
+  #hamburger-menu {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    position: absolute;
+    z-index: 99;
+  }
+}
+
+#about-page {
+  background-color: #222;
+}
+
+#home-page {
+  background-color: #d5d5d5;
+}
+
+#footer {
+  background-color: #272821;
+}
+
+.section-wrapper {
+  width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+
+
+/* Page layout */
+.page-wrapper {
+  height: calc(100vh - 2px);
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.fixed-header {
+  position: relative;
+}
+
+.scrollable-content {
+  height: calc(100% - 126px);
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+
+
+/* Mobile css - 768px and below */
+@media only screen and (max-width: 768px) {
+  .fixed-header {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+
+  .section-wrapper {
+    width: 100%;
+  }
+
+  .program-box-wrapper {
+    flex-direction: column;
+  }
+
+  .program-box {
+    text-align: left;
+    display: flex;
+    gap: 20px;
+  }
+
+  .speaker-column {
+    display: inline-grid;
+  }
+}
+
+/* Mobile css - 768px and above */
+@media only screen and (min-width: 768px) {
+  .mobile-menu-wrap {
+    display: none;
+  }
+}

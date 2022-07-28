@@ -1,0 +1,73 @@
+.mobile-menu {
+  display: none;
+  padding: 20px;
+  color: #fff;
+  background: #333;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  z-index: 9;
+}
+
+.close-btn {
+  border: 1px solid red;
+  display: none;
+}
+
+.show-btn {
+  display: block;
+}
+
+.hide-btn {
+  display: none;
+}
+
+.show-menu {
+  display: block;
+}
+
+.mobile-menu > ul li {
+  list-style: none;
+  color: #fff;
+}
+
+.mobile-menu > ul li a {
+  font-size: 18px;
+  padding: 10px;
+  color: #fff;
+  display: inline-block;
+}
+
+.mobile-menu > ul li a:hover {
+  color: red;
+}
+
+.mobile-menu > ul {
+  padding: 50px;
+}
+
+.mobile-menu-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.ham-btn {
+  font-size: 28px;
+}
+
+.ham-btn > .fa-bars {
+  color: #222;
+}
+
+/* Mobile css - 768px and above */
+@media only screen and (min-width: 768px) {
+  .hamburger-menu {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+}

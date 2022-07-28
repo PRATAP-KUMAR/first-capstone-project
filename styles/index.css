@@ -1,4 +1,6 @@
-@import "./global.css";
 @import "./home.css";
 @import "./about.css";
+@import "./hamburger-menu.css";
+@import "./header.css";
 @import "./footer.css";
+@import "./speakers.css";
