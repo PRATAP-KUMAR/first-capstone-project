@@ -1,0 +1,17 @@
+#footer {
+  background-color: #999;
+  padding: 50px;
+  text-align: center;
+  color: #fff;
+}
+
+.section-wrapper {
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.dr-bg > i {
+  font-size: 48px;
+  color: #272a31;
+  margin-left: 0;
+}

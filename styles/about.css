@@ -1,41 +1,81 @@
-@media only screen and (max-width: 768px) {
-  .dark-bg {
-    background-color: blue;
-    padding-bottom: 80px;
-  }
+#about-page {
+  background-color: #222;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 50px;
+}
 
-  .main-program {
-    display: flex;
-    color: white;
-    justify-content: center;
-    padding-top: 24px;
-  }
+.main-program {
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  position: relative;
+}
 
-  .program-box {
-    display: flex;
-    background-color: orange;
-    margin: 20px;
-  }
+.main-program > span {
+  display: block;
+  margin-bottom: 10px;
+}
 
-  .programe-title {
-    color: #ec5242;
-    justify-content: center;
-    text-align: center;
-  }
+.title-border {
+  height: 5px;
+  width: 100px;
+  display: block;
+  background-color: red;
+  margin: 0 auto;
+}
 
-  .description {
-    color: blue;
-  }
+.program-box-wrapper {
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 
-  .button {
-    height: 80px;
-    background-color: #ec5242;
-    height: 80px;
-    margin-top: 80px;
-    margin-right: 80px;
-    margin-left: 80px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-  }
+.program-box {
+  display: flex;
+  background-color: #393c43;
+  padding: 20px 0;
+}
+
+.program-icon {
+  display: flex;
+  margin-bottom: 10px;
+  flex: 0 0 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.program-icon > i {
+  font-size: 30px;
+  color: #fff;
+  margin: auto;
+}
+
+.program-name {
+  color: #ec5242;
+  font-size: 14px;
+  font-weight: bold;
+  flex: 0.5;
+  margin: auto;
+}
+
+.program-description {
+  font-size: 13px;
+  flex: 1;
+  flex-wrap: wrap;
+  color: white;
+  margin: auto;
+  text-align: left;
+}
+
+.button {
+  font-size: 20px;
+  background-color: #ec5242;
+  color: #fff;
+  text-align: center;
+  padding: 40px;
+  align-items: center;
+  margin: 0 40px;
 }

@@ -1,55 +1,39 @@
-@media only screen and (max-width: 768px) {
-  * {
-    margin: 0;
-    padding: 0;
-    margin-left: 12px;
-  }
+#home-page {
+  background-color: #f4f4f4;
+  padding-bottom: 100px;
+}
 
-  .light-bg {
-    background-color: cyan;
-    opacity: 60%;
-    padding-bottom: 80px;
-    padding: 40px;
-    padding-bottom: 80px;
-  }
+.hello-world {
+  margin-bottom: 10px;
+  padding-top: 60px;
+  font-size: 24px;
+  color: #ec5242;
+  font-family: 'Lato', sans-serif;
+}
 
-  .hello-world {
-    padding-top: 60px;
-    font-size: 24px;
-    color: #ec5242;
-    font-family: 'Lato', sans-serif;
-  }
+.h1-line > span {
+  display: block;
+  text-transform: uppercase;
+  font-size: 36px;
+  color: #ec5242;
+  font-weight: 700;
+}
 
-  .h1-line {
-    font-size: 36px;
-    color: #ec5242;
-  }
+.summary-block {
+  border: 1px solid #fff;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  color: #000;
+}
 
-  .box {
-    margin-top: 24px;
-    margin-bottom: 24px;
-    border: 8px solid red;
-    background-color: lightgray;
-  }
+.date {
+  font-size: 32px;
+  color: #423f3f;
+  font-weight: 700;
+}
 
-  .box>p {
-    font-size: 18px;
-    color: green;
-    ;
-  }
-
-  .box>a {
-    font-size: 18px;
-    color: green;
-    ;
-  }
-
-  .date {
-    font-size: 32px;
-    color: #423f3f;
-    font-weight: 700;
-  }
-
-  .light-bg a {
-    color: black;
-  }
+.venue {
+  font-family: 'Lato', sans-serif;
+}
