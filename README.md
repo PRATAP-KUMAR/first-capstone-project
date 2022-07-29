@@ -2,7 +2,7 @@
 
 # First Capstone Project
 
-> In this capstone project is to build a website based on an online website for a conference.
+> This capstone project is to build a website based on an online website for a conference.
 
 
 ## Built With
@@ -30,21 +30,6 @@ mobile page preview
 
 **This is the first Capstone Project.**
 
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
 [Live Page](https://pratap-kumar.github.io/first-capstone-project/)
 
 
@@ -60,7 +45,7 @@ PRATAP
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/PRATAP-KUMAR/first-capstone-project/issues).
 
 ## Show your support
 
@@ -68,7 +53,7 @@ Give a ⭐️ if you like this project!
 
 ## Credits
 
-- [Creative Commons license of the design](https://creativecommons.org/licenses/by-nc/4.0/)
+- [Cindy Shin](https://www.behance.net/adagio07)
 
 ## Acknowledgments
 
