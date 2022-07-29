@@ -16,13 +16,13 @@
 main page preview  
 ![main page](project-images-preview/desktop_1.png)
 
-about page preview  
+main page preview  
 ![about page](project-images-preview/desktop_2.png)
 
-main page preview  
+mobile page preview  
 ![main page](project-images-preview/mobile_1.png)
 
-about page preview  
+mobile page preview  
 ![about page](project-images-preview/mobile_2.png)
 
 
