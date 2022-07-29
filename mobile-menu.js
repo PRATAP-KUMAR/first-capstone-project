@@ -10,3 +10,13 @@ const hamburgerMenu = () => {
 };
 
 hmbBtn.addEventListener('click', () => hamburgerMenu());
+
+//
+
+const menuLinks = mobileMenu.querySelectorAll('li');
+
+for (let i = 0; i < menuLinks.length; i += 1) {
+  menuLinks[i].addEventListener('click', () => {
+    hamburgerMenu();
+  });
+}

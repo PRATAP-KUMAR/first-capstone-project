@@ -1,3 +1,21 @@
+.speakers-heading {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.speakers-heading > span {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.speakers-border {
+  height: 2px;
+  width: 60px;
+  display: block;
+  background-color: red;
+  margin: 0 auto;
+}
+
 .featured-speaker {
   display: flex;
   margin-right: 40px;

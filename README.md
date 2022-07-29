@@ -14,10 +14,16 @@
 [Live Demo Link](https://livedemo.com)
 
 main page preview  
-![main page](project-images-preview/home-page.png)
+![main page](project-images-preview/desktop_1.png)
 
 about page preview  
-![about page](project-images-preview/about-page.png)
+![about page](project-images-preview/desktop_2.png)
+
+main page preview  
+![main page](project-images-preview/mobile_1.png)
+
+about page preview  
+![about page](project-images-preview/mobile_2.png)
 
 
 ## Getting Started
@@ -39,6 +45,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Deployment
 
+[Live Page](https://pratap-kumar.github.io/first-capstone-project/)
 
 
 ## Authors
@@ -71,4 +78,5 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+- This project is [MIT](./MIT.md) licensed.
+- [Creative Commons license of the design](https://creativecommons.org/licenses/by-nc/4.0/)

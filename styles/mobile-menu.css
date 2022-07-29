@@ -2,7 +2,7 @@
   display: none;
   padding: 20px;
   color: #fff;
-  background: #333;
+  background: rgba(0, 0, 25, 0.8);
   position: absolute;
   width: 100%;
   height: 100vh;
@@ -57,11 +57,14 @@
   font-size: 28px;
 }
 
+.ham-btn > i {
+  cursor: pointer;
+}
+
 .ham-btn > .fa-bars {
   color: #222;
 }
 
-/* Mobile css - 768px and above */
 @media only screen and (min-width: 768px) {
   .hamburger-menu {
     display: none;

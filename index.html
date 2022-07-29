@@ -8,9 +8,13 @@
 	<title>Capstone Project</title>
 	<meta name="description" content="A simple HTML5 Template for new projects.">
 	<meta name="author" content="SitePoint">
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
-	<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
-	<link href="http://fonts.cdnfonts.com/css/cocogoose?styles=44178" rel="stylesheet">
+
+	<!-- Lato fonts official -->
+	<link rel="stylesheet" href="https://use.typekit.net/gmu8egi.css">
+
+	<!-- font awesome official -->
+	<script src="https://kit.fontawesome.com/9db172fad8.js" crossorigin="anonymous"></script>
+
 	<link rel="stylesheet" href="./styles/index.css?v=1.0">
 
 </head>
@@ -24,7 +28,7 @@
 			<ul>
 				<li><a href='#about-page' title="Go to About page">About</a></li>
 				<li><a href='' title="Go to program page">Program</a></li>
-				<li><a href='' title="Go to jopin">Join</a></li>
+				<li><a href='' title="Go to join">Join</a></li>
 				<li><a href='' title="Go to sponsor">Sponsor</a></li>
 				<li><a href='' title="Go to news">News</a></li>
 			</ul>
@@ -38,19 +42,25 @@
 				<div class="nav-wrap">
 					<ul>
 						<li>
-							<a href="https://twitter.com" rel="noopener" target="_blank" title="Go to twitter account">
-								<i class="fa-brands fa-twitter"></i>
-							</a>
-						</li>
-						<li>
 							<a href="https://facebook.com" rel="noopener" target="_blank"
 								title="Go to facebook account">
 								<i class="fa-brands fa-facebook-f"></i>
 							</a>
 						</li>
 						<li>
+							<a href="https://twitter.com" rel="noopener" target="_blank" title="Go to twitter account">
+								<i class="fa-brands fa-twitter"></i>
+							</a>
+						</li>
+						<li>
 							<a href="#" target="_blank" title="Go to home">
-								My home
+								English
+							</a>
+						</li>
+						<li>
+						<li>
+							<a href="#" target="_blank" title="Go to home">
+								My Page
 							</a>
 						</li>
 						<li>
@@ -187,6 +197,10 @@
 			<!-- javaScript Featured Speakers section starts -->
 			<section id="feature-speakers">
 				<div class="section-wrapper">
+					<h2 class="speakers-heading">
+						<span>Featured Speakers</span>
+						<span class="speakers-border"></span>
+					</h2>
 					<div class="speakers-wrapper" id='speakers-block'></div>
 				</div>
 			</section>
@@ -241,7 +255,7 @@
 	</div>
 
 	<script type="module" src="./feature-speakers.js"></script>
-	<script type="module" src="./hamburger-menu.js"></script>
+	<script type="module" src="./mobile-menu.js"></script>
 </body>
 
 </html>

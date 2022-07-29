@@ -4,21 +4,16 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: 'COCOGOOSE', sans-serif;
-}
-
 #home-page {
   background-color: #f4f4f4;
   padding-bottom: 100px;
 }
 
 .hello-world {
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
   padding-top: 60px;
   font-size: 24px;
   color: #ec5242;
-  font-family: 'Lato', sans-serif;
 }
 
 .h1-line > span {
@@ -26,7 +21,7 @@ body {
   text-transform: uppercase;
   font-size: 36px;
   color: #ec5242;
-  font-weight: 700;
+  font-weight: 900;
 }
 
 .summary-block {
@@ -35,19 +30,22 @@ body {
   margin-top: 20px;
   margin-bottom: 20px;
   width: 100%;
-  color: #000;
+}
+
+.summary-block > p {
+  font-weight: 400;
+  color: #333;
 }
 
 .date {
   font-size: 32px;
-  color: #423f3f;
+  color: #575757;
   font-weight: 700;
 }
 
 .venue {
-  font-family: 'Lato', sans-serif;
+  color: #333;
 }
-
 
 /* Mobile css - 768px and below */
 @media only screen and (max-width: 768px) {
