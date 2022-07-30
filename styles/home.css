@@ -46,36 +46,3 @@
 .venue {
   color: #333;
 }
-
-/* Mobile css - 768px and below */
-@media only screen and (max-width: 768px) {
-  .fixed-header {
-    display: none;
-  }
-
-  .hamburger-menu {
-    display: block;
-  }
-
-  .section-wrapper {
-    width: 100%;
-  }
-
-  .program-box-wrapper {
-    flex-direction: column;
-  }
-
-  .program-box {
-    text-align: left;
-    display: flex;
-    gap: 20px;
-  }
-
-  .speaker-column {
-    display: inline-grid;
-  }
-
-  .page-wrapper {
-    height: 100% !important;
-  }
-}

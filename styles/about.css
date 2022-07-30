@@ -89,48 +89,100 @@
   text-decoration: underline;
 }
 
-@media only screen and (min-width: 768px) {
-  .section-wrapper {
-    width: 900px;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
+.summit-section {
+  text-align: center;
+  background: #f3f3f3;
+}
 
-  .program-box-wrapper {
-    padding-bottom: 50px;
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    text-align: center;
-  }
+.summit-section .summary-block {
+  background: #fff;
+  border: 1px solid #ddd;
+}
 
-  .program-box {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    background-color: #393c43;
-    padding: 20px;
-    width: 18%;
-    word-break: break-word;
-  }
+.contact-details {
+  padding-bottom: 30px;
+}
 
-  .program-name {
-    color: #ec5242;
-    font-size: 14px;
-  }
+.contact-details a {
+  color: #333;
+  text-decoration: underline;
+}
 
-  .program-description {
-    font-size: 13px;
-    color: white;
-    text-align: center;
-  }
+.pj-logo-section,
+.pj-past-section {
+  text-align: center;
+  padding: 20px 30px;
+  border-bottom: 1px solid #ddd;
+}
 
-  .button {
-    display: none;
-  }
+.pj-past-section h2 {
+  text-align: center;
+  padding: 30px;
+  position: relative;
+}
 
-  .whole-program {
-    display: block;
-    text-align: center;
-  }
+#pj-logo-section .section-wrapper > span {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.jatara-border {
+  height: 2px;
+  width: 60px;
+  display: block;
+  background-color: red;
+  margin: 0 auto;
+}
+
+.pj-logo-section h2,
+.pj-logo-section p {
+  margin-bottom: 20px;
+}
+
+#past-pics .section-wrapper > span {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.pj-past-section h3,
+.pj-past-section p {
+  margin-bottom: 20px;
+}
+
+#past-pics .section-wrapper > p {
+  display: block;
+  padding-top: 10px;
+}
+
+.pj-logo-section .logo {
+  padding: 30px;
+  border: 1px solid #ddd;
+}
+
+.pj-past-info figure {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.pj-past-info figure > img {
+  position: absolute;
+  max-width: 300px;
+}
+
+.pj-past-info figure img {
+  filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
+}
+
+.pj-past-info figure .past-text {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 30%;
+  text-align: center;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.pj-past-info figure a {
+  color: #fff;
 }

@@ -1,9 +1,8 @@
 const content = [
-
   {
     pic: './speakers/1.jpg',
     name: 'Nara Chandrababu Naidu',
-    role: 'Former Cheifminister of Andhra Pradesh',
+    role: 'Former Cheif Minister of Andhra Pradesh',
     description: 'He is a former Chief Minister of Andhra Pradesh, serving from 2014 to 2019. He is the first Chief Minister of Andhra Pradesh after it was divided.',
   },
 
@@ -37,8 +36,8 @@ const content = [
 
   {
     pic: './speakers/6.jpeg',
-    name: 'Radio Jackey',
-    role: 'Famouse Radio Jackey for the entire Nellore district.',
+    name: 'RJ Prasanthi',
+    role: 'Famouse Radio Jockey for the entire Nellore district.',
     description: 'is recognized as a well-renowned radio artist in Nellore. She came into this globe in 2000 in Nellore. She likes to entertain people with her pleasant voice.',
   },
 ];

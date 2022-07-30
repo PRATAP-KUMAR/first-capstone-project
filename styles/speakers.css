@@ -48,14 +48,5 @@
 
 .speaker-column {
   margin-top: 50px;
-  display: grid;
-  grid-gap: 50px 50px;
-  grid-template-columns: 50% 50%;
-}
-
-/* Mobile css - 768px and below */
-@media only screen and (max-width: 768px) {
-  .speaker-column {
-    grid-template-columns: 100%;
-  }
+  display: block;
 }

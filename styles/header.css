@@ -83,21 +83,6 @@ a {
   color: red;
 }
 
-@media only screen and (max-width: 768px) {
-  .social-nav,
-  .main-nav {
-    display: none;
-  }
-
-  #hamburger-menu {
-    display: block;
-    padding: 10px 20px;
-    color: #fff;
-    position: absolute;
-    z-index: 99;
-  }
-}
-
 #about-page {
   background-color: #222;
 }
@@ -111,7 +96,6 @@ a {
 }
 
 .section-wrapper {
-  width: 900px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -125,48 +109,24 @@ a {
 
 .fixed-header {
   position: relative;
+  display: none;
 }
 
 .scrollable-content {
-  height: calc(100% - 126px);
+  height: 100%;
   display: flex;
   flex-grow: 1;
   flex-direction: column;
   overflow-y: auto;
 }
 
-/* Mobile css - 768px and below */
-@media only screen and (max-width: 768px) {
-  .fixed-header {
-    display: none;
-  }
-
-  .hamburger-menu {
-    display: block;
-  }
-
-  .section-wrapper {
-    width: 100%;
-  }
-
-  .program-box-wrapper {
-    flex-direction: column;
-  }
-
-  .program-box {
-    text-align: left;
-    display: flex;
-    gap: 20px;
-  }
-
-  .speaker-column {
-    display: inline-grid;
-  }
+#hamburger-menu {
+  background-color: #d5d5d5;
+  position: relative;
+  z-index: 2;
 }
 
-/* Mobile css - 768px and above */
-@media only screen and (min-width: 768px) {
-  .mobile-menu-wrap {
-    display: none;
-  }
+.ham-btn {
+  padding: 10px;
+  display: inline-block;
 }
