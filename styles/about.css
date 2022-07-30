@@ -1,4 +1,4 @@
-#about-page {
+#main-program {
   background-color: #222;
   display: flex;
   flex-direction: column;
@@ -117,7 +117,7 @@
 
 .pj-past-section h2 {
   text-align: center;
-  padding: 30px;
+  padding: 30px 20px 20px 20px;
   position: relative;
 }
 

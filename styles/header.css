@@ -83,7 +83,7 @@ a {
   color: red;
 }
 
-#about-page {
+#main-program {
   background-color: #222;
 }
 
@@ -113,11 +113,12 @@ a {
 }
 
 .scrollable-content {
-  height: 100%;
+  height: calc(100% - 60px);
   display: flex;
   flex-grow: 1;
   flex-direction: column;
   overflow-y: auto;
+  margin-top: 60px;
 }
 
 #hamburger-menu {
