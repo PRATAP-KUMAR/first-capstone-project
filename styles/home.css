@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#home-page {
+  background-color: #f4f4f4;
+  padding-bottom: 100px;
+}
+
+.hello-world {
+  /* margin-bottom: 10px; */
+  padding-top: 60px;
+  font-size: 24px;
+  color: #ec5242;
+}
+
+.h1-line > span {
+  display: block;
+  text-transform: uppercase;
+  font-size: 36px;
+  color: #ec5242;
+  font-weight: 900;
+}
+
+.summary-block {
+  border: 1px solid #fff;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.summary-block > p {
+  font-weight: 400;
+  color: #333;
+}
+
+.date {
+  font-size: 32px;
+  color: #575757;
+  font-weight: 700;
+}
+
+.venue {
+  color: #333;
+}

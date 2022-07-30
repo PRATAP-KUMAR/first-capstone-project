@@ -2,38 +2,35 @@
 
 # First Capstone Project
 
-> In this capstone project is to build a website based on an online website for a conference.
+> This capstone project is to build a website based on an online website for a conference.
 
 
 ## Built With
 
 - html, css , javascript
-- bootstrap
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://www.loom.com/share/67fa5845c0c7429791f35c33fd5dbdf4)
+
+main page preview  
+![main page](project-images-preview/desktop_1.png)
+
+main page preview  
+![about page](project-images-preview/desktop_2.png)
+
+mobile page preview  
+![main page](project-images-preview/mobile_1.png)
+
+mobile page preview  
+![about page](project-images-preview/mobile_2.png)
 
 
 ## Getting Started
 
 **This is the first Capstone Project.**
 
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+[Live Page](https://pratap-kumar.github.io/first-capstone-project/)
 
 
 ## Authors
@@ -48,7 +45,7 @@ PRATAP
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/PRATAP-KUMAR/first-capstone-project/issues).
 
 ## Show your support
 
@@ -56,7 +53,7 @@ Give a ⭐️ if you like this project!
 
 ## Credits
 
-- [Creative Commons license of the design](https://creativecommons.org/licenses/by-nc/4.0/)
+- [Cindy Shin](https://www.behance.net/adagio07)
 
 ## Acknowledgments
 
@@ -66,4 +63,5 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+- This project is [MIT](./MIT.md) licensed.
+- [Creative Commons license of the design](https://creativecommons.org/licenses/by-nc/4.0/)
